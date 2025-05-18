@@ -29,8 +29,8 @@ factorio tracks.
 ### v0.0.1 - MVP
 - [x] Add menu song to normal rotation? nope
 - [x] Ambience 1, 2 don't play? meh
-- [ ] Add all songs from music folder
-- [ ] Check volume balance between sources `default == sc == ftl == old factorio`
+- [x] Add all songs from music folder
+- [ ] Check volume balance between sources `default == sc == ftl == old == pz`
 - [ ] Adjust weight, possibly untill each source has an equal chance, therefore ftl should be < spacechem since there are more ftl tracks
 ### v0.0.2 - Change starting track
 - [ ] Create two tracks of sc-07, first half 11 seconds
