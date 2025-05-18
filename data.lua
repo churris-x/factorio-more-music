@@ -14,7 +14,7 @@ data:extend{{
 },{
     name = "sc-02-under-construction",
     type = "ambient-sound",
-    track_type = "interlude",
+    track_type = "main-track",
     planet = "nauvis",
     weight = 1,
     sound = "__more-music__/music/sc-02-under-construction.ogg",
@@ -28,13 +28,21 @@ data:extend{{
 },{
     name = "sc-05-discovery",
     type = "ambient-sound",
-    track_type = "interlude",
+    track_type = "main-track",
     planet = "nauvis",
     weight = 1,
     sound = "__more-music__/music/sc-05-discovery.ogg",
 },{
-    -- Menu track
+    -- Regular version
     name = "sc-07-new-world",
+    type = "ambient-sound",
+    track_type = "main-track",
+    planet = "nauvis",
+    weight = 1,
+    sound = "__more-music__/music/sc-07-new-world.ogg",
+},{
+    -- Menu track
+    name = "sc-07-new-world-menu",
     type = "ambient-sound",
     track_type = "menu-track",
     planet = "nauvis",
@@ -43,8 +51,22 @@ data:extend{{
 },{
     name = "sc-08-some-calm",
     type = "ambient-sound",
-    track_type = "interlude",
+    track_type = "main-track",
     planet = "nauvis",
     weight = 1,
     sound = "__more-music__/music/sc-08-some-calm.ogg",
+},{
+    name = "sc-10-working",
+    type = "ambient-sound",
+    track_type = "main-track",
+    planet = "nauvis",
+    weight = 1,
+    sound = "__more-music__/music/sc-10-working.ogg",
+},{
+    name = "sc-11-finale",
+    type = "ambient-sound",
+    track_type = "main-track",
+    planet = "nauvis",
+    weight = 1,
+    sound = "__more-music__/music/sc-11-finale.ogg",
 }}
