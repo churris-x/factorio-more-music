@@ -2,36 +2,42 @@
 Adds a miscellanea of songs from other games like SpaceChem, FTL and some older
 factorio soundtracks.
 
+## Contents
+- [Todo](#todo)
+- [Roadmap](#roadmap)
+    - [v0.0.1 - MVP](#v001-mvp)
+    - [v0.0.2 - Change starting track](#v002-change-starting-track)
+    - [v0.1.0 - Add playlist settings](#v010-add-playlist-settings)
+    - [v0.2.0 - Add in-game music player](#v020-add-in-game-music-player)
+    - [v0.3.0 - Take Space age fully into account](#v030-take-space-age-fully-into-account)
+- [Info](#info)
+- [License & Acknowledgements](#license-acknowledgements)
+
 ## Todo
 - [x] How to setup `track-type`
 - [ ] Understand how loading screen melody is set
 - [ ] Learn how to make better ui
 
 ## Roadmap
-- v0.0.1 => mvp
-- v0.0.2 => Change starting track
-- v0.1.0 => Add settings to configure songs 
-- v0.2.0 => Add a "music player"
-- v0.3.0 => Take space age fully into account
 
-### v0.0.1
+### v0.0.1 - MVP
 - [ ] Add menu song to normal rotation?
 - [ ] Add all songs from music folder
 - [ ] Check volume balance between sources `default == sc == ftl == old factorio`
 - [ ] Adjust weight, possibly untill each source has an equal chance, therefore ftl should be < spacechem since there are more ftl tracks
-### v0.0.2
+### v0.0.2 - Change starting track
 - [ ] Create two tracks of sc-07
 - [ ] Change loading screen melody to the intro of sc-07
 - [ ] Make menu music sc-07 after intro melody
 - [ ] Add setting `replace loading track` that toggles this behaviour
-### v0.1.0
+### v0.1.0 - Add playlist settings
 - [ ] Add settings to choose which songs to use
-### v0.2.0
+### v0.2.0 - Add in-game music player
 - [ ] Add current song and skip button in game
-### v0.2.X
-- [ ] Make this work for just the current planet
-### v0.3.0
-- [ ] Take Space age fully into account
+- [ ] Shuffle button?
+### v0.3.0 - Take Space age fully into account
+- [ ] Make playlist work for different planets
+- [ ] Shuffle planet button?
 - [ ] Can the `planet` property be set to `space` or is that not a real
 `SpaceLocationID` ?
 - [ ] Is there an easy way for a track to be playable on multiple planets?
@@ -49,9 +55,9 @@ All code is under [MIT License].
 
 Many thanks to:
 
-- tjjinx and their [space age music playlist mod][tjjinx]
-- db48x and their [original-music-hd mod][db48x]
-- bcup and their [C418 Music mod][bcup]
+- `tjjinx` and their [space age music playlist mod][tjjinx]
+- `db48x` and their [original-music-hd mod][db48x]
+- `bcup` and their [C418 Music mod][bcup]
 
 which served as inspiration for this one.
 
