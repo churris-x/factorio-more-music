@@ -20,7 +20,7 @@ factorio soundtracks.
 
 ## Todo
 - [x] How to setup `track-type` -> best to skip interludes
-- [ ] Add Project Zomboid ost
+- [x] Add Project Zomboid ost
 - [ ] Understand how loading screen melody is set -> `__core__/sound/main-menu-motif.ogg`
 - [ ] Learn how to make better ui
 
