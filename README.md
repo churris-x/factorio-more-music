@@ -5,13 +5,13 @@ factorio soundtracks.
 ## Contents
 - [Todo](#todo)
 - [Roadmap](#roadmap)
-    - [v0.0.1 - MVP](#v001-mvp)
-    - [v0.0.2 - Change starting track](#v002-change-starting-track)
-    - [v0.1.0 - Add playlist settings](#v010-add-playlist-settings)
-    - [v0.2.0 - Add in-game music player](#v020-add-in-game-music-player)
-    - [v0.3.0 - Take Space age fully into account](#v030-take-space-age-fully-into-account)
+    - [v0.0.1 - MVP](#v001---mvp)
+    - [v0.0.2 - Change starting track](#v002---change-starting-track)
+    - [v0.1.0 - Add playlist settings](#v010---add-playlist-settings)
+    - [v0.2.0 - Add in-game music player](#v020---add-in-game-music-player)
+    - [v0.3.0 - Take Space age fully into account](#v030---take-space-age-fully-into-account)
 - [Info](#info)
-- [License & Acknowledgements](#license-acknowledgements)
+- [License & Acknowledgements](#license--acknowledgements)
 
 ## Todo
 - [x] How to setup `track-type`
