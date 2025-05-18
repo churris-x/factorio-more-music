@@ -39,6 +39,7 @@ factorio tracks.
 - [ ] Add setting `replace loading track` that toggles this behaviour
 ### v0.1.0 - Add playlist settings
 - [ ] Add settings to choose which songs to use
+    - [ ] Add setting to remove base game songs
 ### v0.2.0 - Add in-game music player
 - [ ] Add current song and skip button in game
 - [ ] Shuffle button?
