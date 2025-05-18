@@ -1,6 +1,6 @@
 # More Music
-Adds a miscellanea of songs from other games like SpaceChem, FTL and some older
-factorio soundtracks.
+Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboid and some older
+factorio tracks.
 
 ## Contents
 <!-- MarkdownTOC -->
@@ -17,18 +17,18 @@ factorio soundtracks.
 
 <!-- /MarkdownTOC -->
 
-
 ## Todo
 - [x] How to setup `track-type` -> best to skip interludes
 - [x] Add Project Zomboid ost
-- [ ] Understand how loading screen melody is set -> `__core__/sound/main-menu-motif.ogg`
+- [x] Understand where loading screen melody is -> `__core__/sound/main-menu-motif.ogg`
+- [ ] Understand how to change the loading melody
 - [ ] Learn how to make better ui
 
 ## Roadmap
 
 ### v0.0.1 - MVP
 - [x] Add menu song to normal rotation? nope
-- [ ] Ambience 1, 2 don't play?
+- [x] Ambience 1, 2 don't play? meh
 - [ ] Add all songs from music folder
 - [ ] Check volume balance between sources `default == sc == ftl == old factorio`
 - [ ] Adjust weight, possibly untill each source has an equal chance, therefore ftl should be < spacechem since there are more ftl tracks
