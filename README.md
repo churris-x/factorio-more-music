@@ -3,6 +3,8 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL and some older
 factorio soundtracks.
 
 ## Contents
+<!-- MarkdownTOC -->
+
 - [Todo](#todo)
 - [Roadmap](#roadmap)
     - [v0.0.1 - MVP](#v001---mvp)
@@ -12,6 +14,9 @@ factorio soundtracks.
     - [v0.3.0 - Take Space age fully into account](#v030---take-space-age-fully-into-account)
 - [Info](#info)
 - [License & Acknowledgements](#license--acknowledgements)
+
+<!-- /MarkdownTOC -->
+
 
 ## Todo
 - [x] How to setup `track-type`
