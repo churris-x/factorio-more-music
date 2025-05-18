@@ -1,0 +1,9 @@
+{
+    "name": "more-music",
+    "version": "0.0.0",
+    "title": "More Music",
+    "author": "churris_x",
+    "factorio_version": "2.0",
+    "dependencies": ["base >= 2.0"],
+    "description": "This mod adds more music to the usual rotation"
+}
