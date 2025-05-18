@@ -19,19 +19,21 @@ factorio soundtracks.
 
 
 ## Todo
-- [x] How to setup `track-type`
-- [ ] Understand how loading screen melody is set
+- [x] How to setup `track-type` -> best to skip interludes
+- [ ] Add Project Zomboid ost
+- [ ] Understand how loading screen melody is set -> `__core__/sound/main-menu-motif.ogg`
 - [ ] Learn how to make better ui
 
 ## Roadmap
 
 ### v0.0.1 - MVP
-- [ ] Add menu song to normal rotation?
+- [x] Add menu song to normal rotation? nope
+- [ ] Ambience 1, 2 don't play?
 - [ ] Add all songs from music folder
 - [ ] Check volume balance between sources `default == sc == ftl == old factorio`
 - [ ] Adjust weight, possibly untill each source has an equal chance, therefore ftl should be < spacechem since there are more ftl tracks
 ### v0.0.2 - Change starting track
-- [ ] Create two tracks of sc-07
+- [ ] Create two tracks of sc-07, first half 11 seconds
 - [ ] Change loading screen melody to the intro of sc-07
 - [ ] Make menu music sc-07 after intro melody
 - [ ] Add setting `replace loading track` that toggles this behaviour
