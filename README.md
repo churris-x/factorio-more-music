@@ -18,6 +18,19 @@ on where the player is; `ambient-music-based-on-physical-location`
 - [Ambient Sound][wiki] API page
 
 ## License & Acknowledgements
-All code is under [MIT License][mit].
+All code is under [MIT License].
 
-[mit]: http://www.opensource.org/licenses/MIT
+Many thanks to:
+
+- tjjinx and their [space age music playlist mod][tjjinx]
+- db48x and their [original-music-hd mod][db48x]
+- bcup and their [C418 Music mod][bcup]
+
+which served as inspiration for this one.
+
+[setting]: https://forums.factorio.com/viewtopic.php?t=119140
+[wiki]: https://lua-api.factorio.com/latest/prototypes/AmbientSound.html#planet
+[MIT License]: http://www.opensource.org/licenses/MIT
+[tjjinx]: https://mods.factorio.com/mod/music_playlist_extender?from=search
+[db48x]: https://github.com/db48x/original-music-hd
+[bcup]: https://mods.factorio.com/mod/C418Music
