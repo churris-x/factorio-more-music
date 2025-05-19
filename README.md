@@ -22,7 +22,8 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 - [x] How to setup `track-type` -> best to skip interludes
 - [x] Add Project Zomboid ost
 - [x] Understand where loading screen melody is -> `__core__/sound/main-menu-motif.ogg`
-- [ ] Understand how to change the loading melody
+- [ ] Understand how to change the loading melody -> this might be a dead end since it's in core -> I think this is double dead since I don't even think that mods are loaded when the sound plays...
+- [ ] Learn more about how data.raw works
 - [ ] Learn how to make an in-game ui
 
 ## Roadmap
@@ -58,6 +59,8 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 ## Info
 - [Hidden setting for playing][setting] track based on where the player is -> `ambient-music-based-on-physical-location`
 - [Ambient Sound][wiki] API page
+- [Prototype Inheritance Tree][tree] shows `data.raw` tables
+- [Mod loading lifecycle][cycle]
 
 ## License & Acknowledgements
 All code is under [MIT License].
@@ -76,3 +79,5 @@ which served as inspiration for this one.
 [tjjinx]: https://mods.factorio.com/mod/music_playlist_extender?from=search
 [db48x]: https://github.com/db48x/original-music-hd
 [bcup]: https://mods.factorio.com/mod/C418Music
+[tree]: https://lua-api.factorio.com/latest/auxiliary/prototype-tree.html
+[cycle]: https://lua-api.factorio.com/latest/auxiliary/data-lifecycle.html
