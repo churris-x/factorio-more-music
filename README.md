@@ -1,6 +1,5 @@
 # More Music
-Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboid and some older
-factorio tracks.
+Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboid and some older factorio tracks.
 
 ## Contents
 <!-- MarkdownTOC -->
@@ -50,14 +49,11 @@ factorio tracks.
 - [ ] Shuffle planet button?
 - [ ] Can the `planet` property be set to `space` or is that not a real
 `SpaceLocationID` ?
-- [ ] Is there an easy way for a track to be playable on multiple planets?
-besides creating a new entry for every planet?
-- [ ] If space-age is not installed, can a track from eg `vulcanus` play on 
-`nauvis`? Or will it never play?
+- [ ] Is there an easy way for a track to be playable on multiple planets? Besides creating a new entry for every planet?
+- [ ] If space-age is not installed, can a track from eg `vulcanus` play on `nauvis`? Or will it never play?
 
 ## Info
-- [Hidden setting for playing][setting] track based
-on where the player is; `ambient-music-based-on-physical-location`
+- [Hidden setting for playing][setting] track based on where the player is -> `ambient-music-based-on-physical-location`
 - [Ambient Sound][wiki] API page
 
 ## License & Acknowledgements
