@@ -10,6 +10,7 @@ factorio tracks.
     - [v0.0.1 - MVP](#v001---mvp)
     - [v0.0.2 - Change starting track](#v002---change-starting-track)
     - [v0.1.0 - Add playlist settings](#v010---add-playlist-settings)
+    - [v0.1.1](#v011)
     - [v0.2.0 - Add in-game music player](#v020---add-in-game-music-player)
     - [v0.3.0 - Take Space age fully into account](#v030---take-space-age-fully-into-account)
 - [Info](#info)
@@ -22,16 +23,14 @@ factorio tracks.
 - [x] Add Project Zomboid ost
 - [x] Understand where loading screen melody is -> `__core__/sound/main-menu-motif.ogg`
 - [ ] Understand how to change the loading melody
-- [ ] Learn how to make better ui
+- [ ] Learn how to make an in-game ui
 
 ## Roadmap
 
 ### v0.0.1 - MVP
-- [x] Add menu song to normal rotation? nope
-- [x] Ambience 1, 2 don't play? meh
 - [x] Add all songs from music folder
 - [x] Check volume balance between sources `default == sc == ftl == old == pz`
-- [x] Adjust weight, possibly untill each source has an equal chance, therefore ftl should be < spacechem since there are more ftl tracks
+- [x] Adjust track `weight` so smaller sets play more often
 ### v0.0.2 - Change starting track
 - [ ] Create two tracks of sc-07, first half 11 seconds
 - [ ] Change loading screen melody to the intro of sc-07
@@ -40,6 +39,9 @@ factorio tracks.
 ### v0.1.0 - Add playlist settings
 - [ ] Add settings to choose which songs to use
     - [ ] Add setting to remove base game songs
+### v0.1.1
+- [ ] Move all mod files into a `src/` folder
+- [ ] Add a build step to automatically zip and publish in the factorio mod portal
 ### v0.2.0 - Add in-game music player
 - [ ] Add current song and skip button in game
 - [ ] Shuffle button?
