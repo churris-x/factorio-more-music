@@ -8,11 +8,11 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 - [Roadmap](#roadmap)
     - [v0.0.1 - MVP](#v001---mvp)
     - [v0.0.2 - Add thumbnail image](#v002---add-thumbnail-image)
-    - [v0.0.3 - Change starting track](#v003---change-starting-track)
     - [v0.1.0 - Add playlist settings](#v010---add-playlist-settings)
     - [v0.1.1 - Restrucure codebase](#v011---restrucure-codebase)
     - [v0.2.0 - Add in-game music player](#v020---add-in-game-music-player)
     - [v0.3.0 - Take Space age fully into account](#v030---take-space-age-fully-into-account)
+    - [v?.?.? - Change starting track - BLOCKED](#v---change-starting-track---blocked)
 - [Info](#info)
 - [License & Acknowledgements](#license--acknowledgements)
 
@@ -22,8 +22,11 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 - [x] How to setup `track-type` -> best to skip interludes
 - [x] Add Project Zomboid ost
 - [x] Understand where loading screen melody is -> `__core__/sound/main-menu-motif.ogg`
-- [ ] Understand how to change the loading melody -> this might be a dead end since it's in core -> I think this is double dead since I don't even think that mods are loaded when the sound plays...
+- [x] Understand how to change the loading melody 
+    - this might be a dead end since it's in core 
+    - I think this is double dead since I don't even think that mods are loaded when the sound plays
 - [ ] Learn more about how data.raw works
+- [ ] Learn how to make better settings -> [wiki](https://wiki.factorio.com/Tutorial:Mod_settings)
 - [ ] Learn how to make an in-game ui
 
 ## Roadmap
@@ -34,11 +37,6 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 - [x] Adjust track `weight` so smaller sets play more often
 ### v0.0.2 - Add thumbnail image
 - [ ] Add jukebox thumbnail image
-### v0.0.3 - Change starting track
-- [ ] Create two tracks of sc-07, first half 11 seconds
-- [ ] Change loading screen melody to the intro of sc-07
-- [ ] Make menu music sc-07 after intro melody
-- [ ] Add setting `replace loading track` that toggles this behaviour
 ### v0.1.0 - Add playlist settings
 - [ ] Add settings to choose which songs to use
     - [ ] Add setting to remove base game songs
@@ -55,6 +53,13 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 `SpaceLocationID` ?
 - [ ] Is there an easy way for a track to be playable on multiple planets? Besides creating a new entry for every planet?
 - [ ] If space-age is not installed, can a track from eg `vulcanus` play on `nauvis`? Or will it never play?
+
+### v?.?.? - Change starting track - BLOCKED
+- `core` files cannot be changed and mods are loaded after the sound plays
+- [ ] Create two tracks of sc-07, first half 11 seconds
+- [ ] Change loading screen melody to the intro of sc-07
+- [ ] Make menu music sc-07 after intro melody
+- [ ] Add setting `replace loading track` that toggles this behaviour
 
 ## Info
 - [Hidden setting for playing][setting] track based on where the player is -> `ambient-music-based-on-physical-location`
