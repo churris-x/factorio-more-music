@@ -1,36 +1,36 @@
 -- log(serpent.block(data.raw["ambient-sound"]))
 
--- remove default songs
-data.raw["ambient-sound"] = {}
+-- Remove default songs
+-- data.raw["ambient-sound"] = {}
 
--- add songs
+-- Add songs
 data:extend{{
     name = "sc-01-opening",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/sc-01-opening.ogg",
 },{
     name = "sc-02-under-construction",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/sc-02-under-construction.ogg",
 },{
     name = "sc-04-some-elements",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 3,
     sound = "__more-music__/music/sc-04-some-elements.ogg",
 },{
     name = "sc-05-discovery",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 3,
     sound = "__more-music__/music/sc-05-discovery.ogg",
 },{
     -- Regular version
@@ -38,7 +38,7 @@ data:extend{{
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/sc-07-new-world.ogg",
 },{
     -- Menu track
@@ -46,112 +46,112 @@ data:extend{{
     type = "ambient-sound",
     track_type = "menu-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/sc-07-new-world.ogg",
 },{
     name = "sc-08-some-calm",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/sc-08-some-calm.ogg",
 },{
     name = "sc-10-working",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 3,
     sound = "__more-music__/music/sc-10-working.ogg",
 },{
     name = "sc-11-finale",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/sc-11-finale.ogg",
 },{
     name = "pz-long-ambient",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/pz-long-ambient.ogg",
 },{
     name = "pz-they-were-once-here",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/pz-they-were-once-here.ogg",
 },{
     name = "pz-barricading",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/pz-barricading.ogg",
 },{
     name = "pz-maybe-not",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/pz-maybe-not.ogg",
 },{
     name = "pz-misc",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/pz-misc.ogg",
 },{
     name = "pz-guitar",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/pz-guitar.ogg",
 },{
     name = "pz-what-was-lost",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/pz-what-was-lost.ogg",
 },{
     name = "pz-raider",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/pz-raider.ogg",
 },{
     name = "pz-wwl-active",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/pz-wwl-active.ogg",
 },{
     name = "pz-work_fast",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 3,
     sound = "__more-music__/music/pz-work-fast.ogg",
 },{
     name = "pz-the_inevitable",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 2,
     sound = "__more-music__/music/pz-the-inevitable.ogg",
 },{
     name = "pz-wwl_tense",
     type = "ambient-sound",
     track_type = "main-track",
     planet = "nauvis",
-    weight = 1,
+    weight = 3,
     sound = "__more-music__/music/pz-wwl-tense.ogg",
 },{
     name = "ftl-01-Title-Screen",
