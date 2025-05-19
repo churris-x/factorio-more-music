@@ -1,0 +1,11 @@
+-----------------------------------------------------------------------------------------
+Version: 0.0.1
+Date: 2025-05-18
+  Changes:
+    - Added soundtrack of following games:
+      - SpaceChem
+      - Project Zomboid
+      - FTL
+      - Pre-0.13 Factorio music
+    - Added SpaceChem - New World to menu-tracks
+    - Balanced song frequency so smaller sets play more often
