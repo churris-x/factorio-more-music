@@ -61,6 +61,7 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 - [Ambient Sound][wiki] API page
 - [Prototype Inheritance Tree][tree] shows `data.raw` tables
 - [Mod loading lifecycle][cycle]
+- [Mod publishing API][publish] for a future github worflow
 
 ## License & Acknowledgements
 All code is under [MIT License].
@@ -81,3 +82,4 @@ which served as inspiration for this one.
 [bcup]: https://mods.factorio.com/mod/C418Music
 [tree]: https://lua-api.factorio.com/latest/auxiliary/prototype-tree.html
 [cycle]: https://lua-api.factorio.com/latest/auxiliary/data-lifecycle.html
+[publish]: https://wiki.factorio.com/Mod_publish_API
