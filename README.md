@@ -7,9 +7,10 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 - [Todo](#todo)
 - [Roadmap](#roadmap)
     - [v0.0.1 - MVP](#v001---mvp)
-    - [v0.0.2 - Change starting track](#v002---change-starting-track)
+    - [v0.0.2 - Add thumbnail image](#v002---add-thumbnail-image)
+    - [v0.0.3 - Change starting track](#v003---change-starting-track)
     - [v0.1.0 - Add playlist settings](#v010---add-playlist-settings)
-    - [v0.1.1](#v011)
+    - [v0.1.1 - Restrucure codebase](#v011---restrucure-codebase)
     - [v0.2.0 - Add in-game music player](#v020---add-in-game-music-player)
     - [v0.3.0 - Take Space age fully into account](#v030---take-space-age-fully-into-account)
 - [Info](#info)
@@ -30,7 +31,9 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 - [x] Add all songs from music folder
 - [x] Check volume balance between sources `default == sc == ftl == old == pz`
 - [x] Adjust track `weight` so smaller sets play more often
-### v0.0.2 - Change starting track
+### v0.0.2 - Add thumbnail image
+- [ ] Add jukebox thumbnail image
+### v0.0.3 - Change starting track
 - [ ] Create two tracks of sc-07, first half 11 seconds
 - [ ] Change loading screen melody to the intro of sc-07
 - [ ] Make menu music sc-07 after intro melody
@@ -38,7 +41,7 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 ### v0.1.0 - Add playlist settings
 - [ ] Add settings to choose which songs to use
     - [ ] Add setting to remove base game songs
-### v0.1.1
+### v0.1.1 - Restrucure codebase
 - [ ] Move all mod files into a `src/` folder
 - [ ] Add a build step to automatically zip and publish in the factorio mod portal
 ### v0.2.0 - Add in-game music player
