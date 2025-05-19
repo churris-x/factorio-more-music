@@ -72,10 +72,31 @@ data:extend{{
 },{
     name = "pz-long-ambient",
     type = "ambient-sound",
-    track_type = "main-track",
+    track_type = "interlude",
     planet = "nauvis",
     weight = 2,
     sound = "__more-music__/music/pz-long-ambient.ogg",
+},{
+    name = "oldtorio-01-intro",
+    type = "ambient-sound",
+    track_type = "main-track",
+    planet = "nauvis",
+    weight = 4,
+    sound = "__more-music__/music/oldtorio-01-intro.ogg",
+},{
+    name = "oldtorio-02-haluzsqua",
+    type = "ambient-sound",
+    track_type = "interlude",
+    planet = "nauvis",
+    weight = 4,
+    sound = "__more-music__/music/oldtorio-02-haluzsqua.ogg",
+},{
+    name = "oldtorio-03-sepro1",
+    type = "ambient-sound",
+    track_type = "main-track",
+    planet = "nauvis",
+    weight = 4,
+    sound = "__more-music__/music/oldtorio-03-sepro1.ogg",
 },{
     name = "pz-they-were-once-here",
     type = "ambient-sound",
