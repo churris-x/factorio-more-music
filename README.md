@@ -37,12 +37,13 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 - [x] Adjust track `weight` so smaller sets play more often
 ### v0.0.2 - Add thumbnail image
 - [x] Add jukebox thumbnail image
+- [x] Add workflow to create a github release
 ### v0.1.0 - Add playlist settings
 - [ ] Add settings to choose which songs to use
     - [ ] Add setting to remove base game songs
 ### v0.1.1 - Restrucure codebase
 - [ ] Move all mod files into a `src/` folder
-- [ ] Add a build step to automatically zip and publish in the factorio mod portal
+- [ ] Add a build step to automatically publish in the factorio mod portal
 ### v0.2.0 - Add in-game music player
 - [ ] Add current song and skip button in game
 - [ ] Shuffle button?
