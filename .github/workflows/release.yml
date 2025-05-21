@@ -6,15 +6,20 @@ on:
       - 'v*.*.*'
     workflow_dispatch:
 
+permissions:
+  contents: write
+
 jobs:
-  check_version:
+  release:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Compare tags
+      - name: Compare Version
         run: |
           CURRENT=v$(jq -r '.version' info.json)
           LATEST=$(git tag | grep -E '^v[0-9]+\.[0-9]+\.[0-9]+' | tail -1)
@@ -23,6 +28,11 @@ jobs:
             exit 1
           fi
           echo "Current version $CURRENT >= $LATEST (latest), continuing to build"
+      - name: Githu release
+        run: |
+          VERSION=$(jq -r '.version' info.json)
+          NOTES=$(git log -1 --format='Changes:%n%b')
+          gh release create 'v$VERSION' --notes '$NOTES'
 
   # create_release:
   #   needs: check_version
@@ -30,9 +40,10 @@ jobs:
   #   steps:
   #     - name: GH release
   #       run: |
-  #       VERSION=$(jq -r '.version' info.json)
-  #       NOTES=$(git log -1 --format='Changes:%n%b')
-  #       gh release create 'v$VERSION' --notes $NOTES
+  #         VERSION=$(jq -r '.version' info.json)
+  #         NOTES=$(git log -1 --format='Changes:%n%b')
+  #         echo 'gh release create 'v$VERSION' --notes $NOTES'
+  #         gh --version
 
   # deploy-mod-portal:
   #   needs: create_release
