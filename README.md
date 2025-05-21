@@ -28,6 +28,7 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 - [ ] Learn more about how data.raw works
 - [ ] Learn how to make better settings -> [wiki](https://wiki.factorio.com/Tutorial:Mod_settings)
 - [ ] Learn how to make an in-game ui
+- [ ] Create a changelog checker?
 
 ## Roadmap
 
@@ -68,6 +69,7 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 - [Prototype Inheritance Tree][tree] shows `data.raw` tables
 - [Mod loading lifecycle][cycle]
 - [Mod publishing API][publish] for a future github worflow
+- [Changelog format](https://wiki.factorio.com/Tutorial:Mod_changelog_format)
 
 ## License & Acknowledgements
 All code is under [MIT License].
