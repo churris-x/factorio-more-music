@@ -31,7 +31,7 @@ jobs:
       - name: Githu release
         run: |
           VERSION=$(jq -r '.version' info.json)
-          NOTES=$(git log -1 --format='Changes:%n%b')
+          NOTES=$(git log -1 --format='## Changes:%n%b')
           gh release create "v$VERSION" --notes "$NOTES"
 
   # create_release:
