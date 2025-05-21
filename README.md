@@ -36,7 +36,7 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 - [x] Check volume balance between sources `default == sc == ftl == old == pz`
 - [x] Adjust track `weight` so smaller sets play more often
 ### v0.0.2 - Add thumbnail image
-- [ ] Add jukebox thumbnail image
+- [x] Add jukebox thumbnail image
 ### v0.1.0 - Add playlist settings
 - [ ] Add settings to choose which songs to use
     - [ ] Add setting to remove base game songs
