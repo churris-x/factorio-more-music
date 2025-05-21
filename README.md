@@ -22,9 +22,7 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 - [x] How to setup `track-type` -> best to skip interludes
 - [x] Add Project Zomboid ost
 - [x] Understand where loading screen melody is -> `__core__/sound/main-menu-motif.ogg`
-- [x] Understand how to change the loading melody 
-    - this might be a dead end since it's in core 
-    - I think this is double dead since I don't even think that mods are loaded when the sound plays
+- [x] Understand how to change the loading melody -> BLOCKED
 - [ ] Learn more about how data.raw works
 - [ ] Learn how to make better settings -> [wiki](https://wiki.factorio.com/Tutorial:Mod_settings)
 - [ ] Learn how to make an in-game ui
