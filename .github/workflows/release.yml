@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 jobs:
-  release:
+  create_release:
     runs-on: ubuntu-latest
     env:
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -34,20 +34,14 @@ jobs:
           NOTES=$(git log -1 --format='## Changes:%n%b')
           gh release create "v$VERSION" --notes "$NOTES"
 
-  # create_release:
-  #   needs: check_version
-  #   runs-on: ubuntu-latest
-  #   steps:
-  #     - name: GH release
-  #       run: |
-  #         VERSION=$(jq -r '.version' info.json)
-  #         NOTES=$(git log -1 --format='Changes:%n%b')
-  #         echo 'gh release create 'v$VERSION' --notes $NOTES'
-  #         gh --version
-
-  # deploy-mod-portal:
+  # deploy_mod_portal:
   #   needs: create_release
   #   runs-on: ubuntu-latest
   #   steps:
-  #     - run: echo '🎉 The job was automatically triggered by a ${{ github.event_name }} event.'
-  #     - run: echo 'status is ${{ job.status }}'
+  #     - name: Create link
+  #       run: |
+  #         MODS_API="https://mods.factorio.com/api/v2/mods/init_publish"
+  #         MOD_NAME=$(jq -r '.name' info.json)
+  #         HEADERS="Bearer ${{ secrets.FACTORIO_KEY }}"
+
+
