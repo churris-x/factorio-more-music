@@ -27,6 +27,7 @@ Adds a miscellanea of songs from other games like SpaceChem, FTL, Project Zomboi
 - [ ] Learn how to make better settings -> [wiki](https://wiki.factorio.com/Tutorial:Mod_settings)
 - [ ] Learn how to make an in-game ui
 - [ ] Create a changelog checker?
+- [ ] Add a `.gitattributes` file to use `git archive` in the future for packaging the mod
 
 ## Roadmap
 
